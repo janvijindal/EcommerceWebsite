@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav-bar{
+    
+    top:0; left:0; 
+    width: 100%;
+    background-color : rgb(232, 230, 241);
+  
+}
+
+.logo{
+    margin-right: 450px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+ul{
+    list-style: none;
+    padding: 30px;
+    margin: 20px;
+}
+
+ul li a{
+    margin-left: 25px;
+    font-size: 1.3rem;
+    list-style: none;
+    color:#0a0a0a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+li a:hover{
+    color: coral;
+}
+
+/* home section */
+
+#home{
+    width: 100%;
+    height: 81vh;
+    background-image: url(/img/back.jpg);
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.box{
+    margin-left: 40px;
+    padding: 30px;
+}
+
+
+
+.container h5{
+    font-size: 25px;
+    color: #111010;
+   
+}
+
+.container h3{
+     font-size: 3rem;
+     font-weight: 500;
+     margin-top: 10px;
+    
+}
+
+ .container span{
+     font-size: 3rem;
+     color: coral;
+} 
+
+.container p{
+    font-size: 16px;
+    color: #7c7272;
+    margin-top: 10px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: #080707;
+    color: bisque;
+    cursor: pointer;
+}
+
+.btn:hover{
+ background-color: rgb(15, 13, 13);
+}
+
+/* brand section */
+
+.row-1{
+     width: 100%;
+     margin: 50px;
+     margin-bottom: 100px;
+}
+
+.row-1 .image{
+    margin-left: 25px;
+}
+
+/* new section */
+
+
+#new{
+    width: 100%;
+    margin: 90px 0px;
+   
+
+}
+
+.new-img{
+     width: 450px;
+     height: 60vh;
+     
+}
+
+.box-2 .details h5{
+     font-size: 1.7rem;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 1.1rem;
+}
+
+.btn-2{
+    margin-left: 10rem;
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+    height: 2.1rem;
+    width: 8rem;
+    font-size: 1rem;
+    background-color: #080707;
+    color: bisque;
+    border-radius: .5rem;
+   
+}
+
+/* featured section */
+
+.feature-detail{
+       text-align: center;
+       margin: 30px 25px;
+       padding: 25px;
+}
+
+.feature-detail h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.row-3{
+    width: 100%;
+    margin: 10px 0px;
+    margin-right: 2rem;
+}
+
+.row-3 .box-3{
+      padding: 50px 20px;
+}
+
+.stars{
+      color: rgb(243, 243, 27);
+       margin-left: 5.5rem;
+       margin-bottom: 12px;
+       margin-top: 2rem;
+}
+
+.row-3 .box-3 h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3b3636;
+}
+
+.row-3 .box-3 .price{
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-top: .5rem;
+      color: #080707;
+}
+
+/* BANNER SECTION */
+
+#banner{
+    width: 100%;
+    height: 81vh;
+    background-image: url(/img/banner/2.jpg);
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* dress section */
+
+#dress .row-3 .box-3 img{
+     height: 50vh;
+     width: 300px;
+}
+
+.dress-detail{
+    text-align: center;
+    margin: 30px 25px;
+    padding: 25px;
+}
+
+.dress-detail h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+/* watches section */
+
+#watches .row-3 .box-3 img{
+    height: 50vh;
+    width: 300px;
+}
+
+.watches-detail{
+   text-align: center;
+   margin: 30px 25px;
+   padding: 25px;
+}
+
+.watches-detail h3{
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin-bottom: 2rem;
+}
+
+/* running shoes sction */
+
+#shoes .row-3 .box-3 img{
+    height: 50vh;
+    width: 300px;
+}
+
+.shoes-detail{
+   text-align: center;
+   margin: 30px 25px;
+   padding: 25px;
+}
+
+.shoes-detail h3{
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin-bottom: 2rem;
+}
+
+/* footer section */
+
+.footer{
+      width: 100%;
+     background-color: #111010;
+     color: white;
+}
+
+.foot-row{
+     padding: 5rem;
+}
+
+.col-1{
+    width: 25vw;
+    height: 50vh;
+   
+    margin: 5px;
+    padding: 2rem;
+}
+
+.col-1 img{
+     margin: 5px;
+    
+}
+
+.col-1 p{
+     color: #948989;
+     margin-top: 12px;
+}
+
+.col-2{
+    width: 20vw;
+    height: 60vh;
+   margin: 10px;
+}
+
+.col-2 ul {
+     color:  #948989;
+     margin-left: 0px;
+     list-style: none;
+     
+}
+
+.col-2 ul li{
+     margin: 15px 0px;
+}
+
+
+.col-2 h1{
+      margin-left: 20px;
+      margin-top: 10px;
+    
+}
+
+.col-2 .info{
+    margin-top: 2.5rem;
+    padding: 2rem;
+}
+
+.col-2 .info h3{
+    padding: 5px 0px;
+    color: rgb(255, 244, 244);
+}
+
+.col-2 .info p{
+    color:  #948989;
+}
+
+.col-3{
+    width: 25vw;
+    height: 50vh;
+    
+    margin: 10px;
+   
+}
+
+.col-3 h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.col-3 .box-4{
+    margin-top: 2.5rem;
+    padding: 2rem;
+}
+
+.col-3 .row-4 img{
+     width: 60px;
+     height: 60px;
+     margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
